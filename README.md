@@ -7,9 +7,10 @@ Spot Yourself is a game. where you can
 Download the files to your local computer.
 Replace the pictures "img (0).png" ... "img (57).png" with your own pictures.
 - Prefer small pictures 160*160.
-You can use [bulkresizephotos](https://bulkresizephotos.com/en?resize_type=absolute&resize_value=160) to resize all your pictures at once, after upload select "longest side" = 160
+You can use [bulkresizephotos](https://bulkresizephotos.com/en?resize_type=absolute&resize_value=160) to resize all your pictures at once, after upload select "longest side" = 160 (in expert mode choose png to keep tranparency)
 - Prefer square pictures size.
 - Use pictures with format jpg or png.
+jpg pictures will be rendered round. use png for transparent background pictures.
 - The file names must remain in this format "img (##).xxx"
 
 Open spotit.html in your browser.
