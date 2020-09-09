@@ -16,6 +16,7 @@ Open spotit.html in your browser.
 
 ## Printing tips
 In order to have 6 cards on each A4 page: In your browser (e.g. chrome) press Ctrl+p in the printing wizard select destination printer or pdf. select margins -> minimum.
+If you want to print the background check "background graphics" in the printing wizard.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
