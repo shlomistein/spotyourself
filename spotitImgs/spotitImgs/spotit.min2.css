@@ -1,0 +1,83 @@
+@page {
+  size: A4;
+}
+
+.line {
+	display: inline-block;
+}
+
+.instructions {
+ display: none;
+}
+
+.circle-container {
+  position: relative;
+  /* 1 */
+  width: 174pt;
+  height: 174pt;
+  padding: 4em;
+  border-radius: 50%;
+  list-style: none;
+  /* 2 */
+  box-sizing: content-box;
+  /* 3 */
+  margin: 0em auto 0;
+  border: solid 3px darkblue;
+  background-image: url("../background.jpg");
+  overflow: hidden;
+}
+.circle-container > * {
+  /* 4 */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 6em;
+  height: 6em;
+  margin: -3em;
+}
+.circle-container > :nth-of-type(1) {
+  transform: rotate(0deg) translate(7.5em) rotate(-90deg);
+}
+.circle-container > :nth-of-type(2) {
+  transform: rotate(51.42857deg) translate(7.5em) rotate(-90deg);
+}
+.circle-container > :nth-of-type(3) {
+  transform: rotate(102.85714deg) translate(7.5em) rotate(-90deg);
+}
+.circle-container > :nth-of-type(4) {
+  transform: rotate(154.28571deg) translate(7.5em) rotate(-90deg);
+}
+.circle-container > :nth-of-type(5) {
+  transform: rotate(205.71429deg) translate(7.5em) rotate(-90deg);
+}
+.circle-container > :nth-of-type(6) {
+  transform: rotate(257.14286deg) translate(7.5em) rotate(-90deg);
+}
+.circle-container > :nth-of-type(7) {
+  transform: rotate(308.57143deg) translate(7.5em) rotate(-90deg);
+}
+
+.imgWidth0{
+  max-width: 100% !important;
+}
+.imgWidth1{
+  max-width: 100% !important;
+}
+.imgWidth2{
+  max-width: 100% !important;
+}
+
+.circle-container img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-container .png {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0% !important;
+}
